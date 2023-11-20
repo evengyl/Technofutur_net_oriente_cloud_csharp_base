@@ -27,7 +27,6 @@
             Console.WriteLine("Latitude : {0:D2}°{1:D2}'{2:D2}\"{3:D2}", bruxelle.latitude.degre, bruxelle.latitude.minutes, bruxelle.latitude.secondes, bruxelle.latitude.direction);
             Console.WriteLine("Longitude : {0:D2}°{1:D2}'{2:D2}\"{3:D2}", bruxelle.longitude.degre, bruxelle.longitude.minutes, bruxelle.longitude.secondes, bruxelle.longitude.direction);
 
-
         }
     }
 
@@ -38,9 +37,7 @@
         public int secondes;
         public string direction;
 
-        public void ShowDirection() {
-            Console.WriteLine(direction);
-        }
+      
     }
 
     public struct Localisation
